@@ -60,6 +60,11 @@ body {
     border-bottom: #E5E7EB 1px solid;
 }
 
+.header__buttons {
+    display: flex;
+    flex-direction: row; 
+}
+
 .header__button {
     background-color: #E5E7EB;
     display: flex;
@@ -71,6 +76,13 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: #3e4040;
+    margin-right: 10px;
+}
+
+.header__button:nth-child(2) {
+    width: 100px;
+    background-color: #000000;
+    color: white;
 }
 
 .cards {
