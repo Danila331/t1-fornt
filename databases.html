@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="file.css">
-
+    <link rel="stylesheet" href="upload_add.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,22 +27,25 @@
                     <a href="#" class="header__button"><img src="./images/plus.png" alt="" class="block1__image">Добавить</a>
                 </div>
             </div>
-            <form id="fileUploadForm" action="" method="post" class="form">
-                <label for="fileInput" class="file-label">
-                    Выберите файл
-                    <input 
-                        type="file" 
-                        id="fileInput" 
-                        name="file" 
-                        accept=".pdf,.txt,.docx,.doc,.csv,.xlsx,.xls,.json" 
-                        required>
-                </label>
-                <p class="file-types">
-                    Поддерживаемые типы: PDF, TXT, DOCX, DOC, CSV, XLSX, XLS, JSON
-                </p>
-                <button type="submit" class="submit-btn">Загрузить</button>
-                <p id="message" class="message"></p>
-            </form>
+            <h2 class="main__text">Выбирете, что вы хотите загрузить</h2>
+            <div class="content">
+                <a href="" class="content__block">
+                    <img src="./images/documents.png" alt="" class="content__image">
+                    <p class="content__block-header">ElasticSearch</p>
+                </a>
+                <a href="" class="content__block">
+                    <img src="./images/database.png" alt="" class="content__image">
+                    <p class="content__block-header">PostgresSql</p>
+                </a>
+                <a href="" class="content__block">
+                    <img src="./images/website.png" alt="" class="content__image">
+                    <p class="content__block-header">MongoDB</p>
+                </a>
+                <a href="" class="content__block">
+                    <img src="./images/website.png" alt="" class="content__image">
+                    <p class="content__block-header">MySql</p>
+                </a>
+            </div>
         </div>
     </div>
 </body>

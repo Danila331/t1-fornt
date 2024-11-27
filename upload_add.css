@@ -17,7 +17,13 @@
     padding: 20px;
     border: 1px solid #ddd; /* рамка */
     border-radius: 8px;
-    text-decoration: none; /* скругленные углы */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;/* скругленные углы */
+}
+
+.content__block:hover {
+    padding: 16px;
+    background-color: #d4d4d4;
 }
 
 .content__image {
